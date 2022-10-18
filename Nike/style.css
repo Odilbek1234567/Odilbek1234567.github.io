@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: url(./header_bg_image\ 1\ \(1\).jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 654px;
+}
+
+header .logo {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #CB0A15;
+}
+
+header nav ul li a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 17px 26px;
+    display: block;
+    color: #515151;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #515151;
+    color: #ffffff;
+}
+
+header h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #CB0A15;
+    margin-top: 215px;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #515151;
+    padding-bottom: 275px;
+    text-align: center;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+main .bir {
+    width: 45%;
+}
+
+main .bir h3 {
+    margin-top: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #2C2C2C;
+}
+
+main .bir p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #919191;
+
+}
+
+main .ikki {
+    width: 45%;
+    margin-left: 30px;
+}
+
+main .ikki .box {
+    display: flex;
+    margin-bottom: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #919191;
+}
+
+main .ikki h4 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+main .ikki .box .text {
+    margin-left: 30px;
+}
+
+footer {
+
+    position: absolute;
+    width: 1920px;
+    height: 300px;
+    left: 0px;
+    top: 1590px;
+    display: block;
+    background: #F9F9F9;
+}
+
+footer .class {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+footer h3 {
+    padding: 5px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+footer .clas ul li a {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 470px;
+    top: 1721px;
+    display: block;
+    background: #A5A5A5;
+}
+
+.odil {
+    color: #CB0A15;
+}

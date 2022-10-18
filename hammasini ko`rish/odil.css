@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+section .h1 h1{
+    text-align: center;
+    color: black;
+    width: 1140px;
+    margin: auto;
+}
+
+section .section_menu .section_blok img{
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+section .section_menu .section_blok .blok {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+section .top {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+section .section_menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+}
+
+section .section_menu .section_blok {
+    box-shadow: 3px 8px 20px grey;
+    max-width: 48%;
+    padding: 20px;
+    background-color: white;
+}
+
+section .section_menu .section_blok {
+    max-width: 48%;
+    padding: 20px;
+    background-color: white;
+}
+
+section .section_menu .section_blok h2 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+
+    /* Dark Color */
+
+    color: #21243D;
+    margin-top: 20px;
+}
+
+section .blok {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1315px){
+    .section_menu {
+        flex-wrap: wrap;
+        display: block;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+    }
+}
